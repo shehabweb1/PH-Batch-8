@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("https://wallpapercave.com/wp/wp2665744.jpg");
+	color: #fff;
+}
+
+h1 {
+	font-style: italic;
+	font-size: 3rem;
+	text-align: center;
+}
+
+p {
+	color: aquamarine;
+}
+
+ul {
+	height: 200px;
+	width: 200px;
+	background-color: rgb(133, 133, 255);
+	margin: 50px;
+	list-style: none;
+}
+
+li {
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 24px;
+	font-weight: 700;
+}

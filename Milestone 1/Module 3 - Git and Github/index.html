@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git and Github</title>
+</head>
+
+<body>
+    <header>
+        <h1>Git and Github</h1>
+    </header>
+    <main>
+        <p>Here's a step-by-step guide on how to create a GitHub repository and push files to it:</p>
+        <ol>
+            <li>Create a GitHub Account:
+                If you don't already have a GitHub account, go to <a href="https://github.com">Github</a> and sign up
+                for a new account.
+                Follow the instructions to complete the registration process.</li>
+            <li>Create a New Repository:
+                Once you're logged in to GitHub, click on the "+" icon at the top-right corner of the page and select
+                "New repository" from the dropdown menu.</li>
+            <li>Fill in Repository Details:
+                On the new repository page, provide a name for your repository. Choose a descriptive name that reflects
+                the purpose of your project. You can also add an optional description, choose whether the repository
+                should be public or private, and initialize it with a README file (recommended).</li>
+            <li>Initialize Local Git Repository:
+                If you haven't done so already, initialize a local Git repository on your computer. Open a terminal or
+                command prompt in the desired directory and run the following command: git init</li>
+            <li>Add Files to the Repository:
+                Copy or create the files you want to add to the repository in the local directory. Use the following
+                command to add all files to the staging area: git add .
+            </li>
+            <li>Commit the Changes:
+                Commit the changes to your local repository with a descriptive message. Use the following command: git
+                commit -m "Initial commit"
+            </li>
+            <li>Connect Local and Remote Repositories:
+                On the repository page on GitHub, copy the remote repository URL. In your terminal or command prompt,
+                add the remote repository by running the following command: git remote add origin
+                <remote_repository_url>
+            </li>
+            <li>Push the Commits:
+                Finally, push the commits from your local repository to the remote repository on GitHub using the
+                following command: git push -u origin master
+            </li>
+            <li>Provide GitHub Credentials:
+                When prompted, enter your GitHub username and password (or personal access token) to authenticate and
+                push the changes to the remote repository.</li>
+        </ol>
+        <p>That's it! Your files should now be pushed to the GitHub repository. You can go to the repository page on
+            GitHub to verify the changes and collaborate with others.</p>
+    </main>
+    <footer>
+        &copy; 2023 All rights reserved Shehab
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Form</title>
+    <style>
+        header,
+        footer {
+            text-align: center;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 50%;
+            padding: 20px 0;
+        }
+
+        label,
+        fieldset {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        input {
+            padding: 5px 10px;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Simple HTML Form</h1>
+    </header>
+
+    <main>
+        <section>
+            <form action="index.html">
+                <label for="name"> Name:
+                    <input type="text" id="name" placeholder="Enter your name">
+                </label>
+                <label for="email"> Email:
+                    <input type="email" id="email" placeholder="Enter your email">
+                </label>
+                <label for="phone"> Phone:
+                    <input type="number" id="phone" placeholder="Enter your phone number">
+                </label>
+                <label for="address"> Address:
+                    <input type="text" id="address" placeholder="Enter your address">
+                </label>
+                <label for="country"> Country:
+                    <input type="text" id="country" placeholder="Enter your country">
+                </label>
+                <fieldset>
+                    <legend>
+                        Enter your qualification
+                    </legend>
+                    <label for="fontend">
+                        <input type="radio" name="qualification" id="fontend"> Frontend Developer
+                    </label>
+                    <label for="backend">
+                        <input type="radio" name="qualification" id="backend"> Backend Developer
+                    </label>
+                    <label for="fullstack">
+                        <input type="radio" name="qualification" id="fullstack"> Full Stack Developer
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Enter your skills
+                    </legend>
+                    <label for="html">
+                        <input type="checkbox" name="skills" id="html"> HTML
+                    </label>
+                    <label for="css">
+                        <input type="checkbox" name="skills" id="css"> CSS
+                    </label>
+                    <label for="js">
+                        <input type="checkbox" name="skills" id="js"> JavaScript
+                    </label>
+                    <label for="react">
+                        <input type="checkbox" name="skills" id="react"> ReactJS
+                    </label>
+                    <label for="vue">
+                        <input type="checkbox" name="skills" id="vue"> VueJS
+                    </label>
+                    <label for="angular">
+                        <input type="checkbox" name="skills" id="angular"> AngularJS
+                    </label>
+                    <label for="next">
+                        <input type="checkbox" name="skills" id="next"> NextJS
+                    </label>
+                    <label for="express">
+                        <input type="checkbox" name="skills" id="express"> ExpressJS
+                    </label>
+                    <label for="node">
+                        <input type="checkbox" name="skills" id="node"> NodeJS
+                    </label>
+                </fieldset>
+                <label for="cover-letter"> Enter your cover letter
+                    <textarea name="cover-letter" id="cover-letter" cols="90" rows="10"></textarea>
+                </label>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Apply">
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        &copy; 2023 All rights reserved Shehab
+    </footer>
+</body>
+
+</html>

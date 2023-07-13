@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+}
+header {
+	padding: 20px 20px;
+	background-color: #333;
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+}
+
+.logo {
+	color: darkgoldenrod;
+    cursor: pointer;
+}
+
+.logo span {
+	font-style: italic;
+	color: aqua;
+}
+
+.signUp {
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+    text-decoration: none;
+    padding: 7px 10px;
+    background: red;
+    border-radius: 7px;
+}
+.signUp:hover{
+    background-color: #111;
+
+}
+.container {
+    padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 25px;
+}
+
+.card {
+	padding: 15px;
+	border: 2px solid #333;
+	border-radius: 10px;
+}
+
+.card img {
+	width: 100%;
+}
+
+.card ul {
+    margin: 20px;
+}
+.card ul li{
+    padding: 5px 0;
+}
+.card button {
+    display: block;
+    margin: 0 auto;
+    background: #222;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background: #111;
+}
+
+@media screen and (max-width: 1023px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .logo{
+        align-items: center;
+    }
+    .signUp{
+        display: none;
+    }
+}

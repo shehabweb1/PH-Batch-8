@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <div class="mx-auto">
+            <div class="bg-[#1090D8] py-5 px-10 text-black rounded-xl">
+                <div class="flex justify-between justify-items-center">
+                    <div>
+                        <h1 class="text-2xl font-bold">Interactive</h1>
+                        <h3 class="text-lg font-semibold">Geometry Genius</h3>
+                    </div>
+                    <button class="btn btn-primary px-10">Blog</button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main class="my-20 flex flex-col lg:flex-row">
+        <div class="w-10/12">
+            <div class="grid grid-row-1 lg:grid-cols-3 gap-5">
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/triangle.png" alt="triangle" /></figure>
+                    <div class="card-body">
+                        <div class="mx-auto">
+                            <h2 class="card-title">Triangle</h2>
+                        </div>
+                        <p class="text-center">Area(A) = 0.5 x b x h</p>
+                        <div class="mx-auto w-5/6">
+                            <span class="mx-1">
+                                b: <input type="number" id="triangle-base" class="w-1/4 outline-none"> cm,
+                            </span>
+                            <span class="mx-1">
+                                h: <input type="number" id="triangle-height" class="w-1/4 outline-none"> cm
+                            </span>
+                        </div>
+                        <p class="text-center text-lg">
+                            Results: <span class="font-blod" id="triangle-result">0</span> cm <sup>2</sup>
+                        </p>
+                        <div class="card-actions">
+                            <button onclick="getAddTriangle()" class="btn btn-primary w-full">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/rectangle.png" alt="rectangle" /></figure>
+                    <div class="card-body">
+                        <div class="mx-auto">
+                            <h2 class="card-title">Rectangle</h2>
+                        </div>
+                        <p class="text-center">Area(A) = w x l</p>
+                        <div class="mx-auto w-5/6">
+                            <span class="mx-1">
+                                w: <input type="number" id="rectangle-width" class="w-1/4 outline-none"> cm,
+                            </span>
+                            <span class="mx-1">
+                                l: <input type="number" id="rectangle-length" class="w-1/4 outline-none"> cm
+                            </span>
+                        </div>
+                        <p class="text-center text-lg">
+                            Results: <span class="font-blod" id="rectangle-result">0</span> cm <sup>2</sup>
+                        </p>
+                        <div class="card-actions">
+                            <button onclick="getAddRectangle()" class="btn btn-primary w-full">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/parallelogram.png" alt="parallelogram" /></figure>
+                    <div class="card-body">
+                        <div class="mx-auto">
+                            <h2 class="card-title">Parallelogram</h2>
+                        </div>
+                        <p class="text-center">Area(A) = b x h</p>
+                        <div class="mx-auto w-5/6">
+                            <span class="mx-1">
+                                b: <input type="number" id="parallelogram-base" class="w-1/4 outline-none"> cm,
+                            </span>
+                            <span class="mx-1">
+                                h: <input type="number" id="parallelogram-height" class="w-1/4 outline-none"> cm
+                            </span>
+                        </div>
+                        <p class="text-center text-lg">
+                            Results: <span class="font-blod" id="parallelogram-result">0</span> cm <sup>2</sup>
+                        </p>
+                        <div class="card-actions">
+                            <button onclick="getAddParallelogram()" class="btn btn-primary w-full">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/rhombus.png" alt="rhombus" /></figure>
+                    <div class="card-body">
+                        <div class="mx-auto">
+                            <h2 class="card-title">Rhombus</h2>
+                        </div>
+                        <p class="text-center">Area(A) = 0.5 x d<sub>1</sub> x d<sub>2</sub></p>
+                        <div class="mx-auto w-5/6">
+                            <span class="mx-1">
+                                d<sub>1</sub>: <input type="number" id="rhombus-d1" class="w-1/4 outline-none"> cm,
+                            </span>
+                            <span class="mx-1">
+                                d<sub>2</sub>: <input type="number" id="rhombus-d2" class="w-1/4 outline-none"> cm
+                            </span>
+                        </div>
+                        <p class="text-center text-lg">
+                            Results: <span class="font-blod" id="rhombus-result">0</span> cm <sup>2</sup>
+                        </p>
+                        <div class="card-actions">
+                            <button onclick="getAddRhombus()" class="btn btn-primary w-full">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/pentagon.png" alt="pentagon" /></figure>
+                    <div class="card-body">
+                        <div class="mx-auto">
+                            <h2 class="card-title">Pentagon</h2>
+                        </div>
+                        <p class="text-center">Area(A) = 0.5 x p x b</p>
+                        <div class="mx-auto w-5/6">
+                            <span class="mx-1">
+                                p: <input type="number" id="pentagon-p" class="w-1/4 outline-none"> cm,
+                            </span>
+                            <span class="mx-1">
+                                b: <input type="number" id="pentagon-b" class="w-1/4 outline-none"> cm
+                            </span>
+                        </div>
+                        <p class="text-center text-lg">
+                            Results: <span class="font-blod" id="pentagon-result">0</span> cm <sup>2</sup>
+                        </p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary w-full" onclick="getAddPentagon()">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/ellipse.png" alt="ellipse" /></figure>
+                    <div class="card-body">
+                        <div class="mx-auto">
+                            <h2 class="card-title">Ellipse</h2>
+                        </div>
+                        <p class="text-center">Area(A) = &Pi; ab</p>
+                        <div class="mx-auto w-5/6">
+                            <span class="mx-1">
+                                a: <input type="number" id="ellipse-a" class="w-1/4 outline-none"> cm,
+                            </span>
+                            <span class="mx-1">
+                                b: <input type="number" id="ellipse-b" class="w-1/4 outline-none"> cm
+                            </span>
+                        </div>
+                        <p class="text-center text-lg">
+                            Results: <span class="font-blod" id="ellipse-result">0</span> cm <sup>2</sup>
+                        </p>
+                        <div class="card-actions">
+                            <button onclick="getAddEllipse()" class="btn btn-primary w-full">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-2/12">
+            <h2 class="text-3xl text-center text-white">Area Calculation</h2>
+            <div id="resultBox" class="text-lg"></div>
+        </div>
+    </main>
+    <script src="scripts/utilities.js"></script>
+    <script src="scripts/calculation.js"></script>
+</body>
+
+</html>

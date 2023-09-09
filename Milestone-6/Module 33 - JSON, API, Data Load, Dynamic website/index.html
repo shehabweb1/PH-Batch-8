@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details using JSON & API</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .box {
+            width: 200px;
+            border: 1px solid rosybrown;
+            color: white;
+            padding-left: 20px;
+        }
+
+        .box:nth-child(odd) {
+            background: #004409;
+        }
+
+        .box:nth-child(even) {
+            background: #a90808;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            padding: 15px 25px;
+            background: orange;
+            cursor: pointer;
+            border-radius: 25px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        button:hover {
+            background: orangered;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>User Details</h1>
+        <div class="row" id="userData">
+            
+        </div>
+    </div>
+
+    <button onclick="loadUser()">Load Users</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

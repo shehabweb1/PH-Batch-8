@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="lemonade">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube Blog</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- DaisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- Tailwind CSS cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .inter-font {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="inter-font ">
+    <!-- Header -->
+    <header class="container mx-auto py-7">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <a class="text-xl" href="index.html">
+                    <img src="img/Logo.png" alt="Logo" class="">
+                </a>
+            </div>
+            <div class="navbar-end">
+                <a class="btn bg-red-600 hover:bg-red-700 text-white font-medium text-lg normal-case"
+                    href="index.html">Back Home</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-20">
+        <h1 class="text-3xl text-center font-bold">Blog Questions</h1>
+        <div class="w-2/3 mx-auto mt-10">
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                    Discuss the scope of var, let, and const
+                </div>
+                <div class="collapse-content">
+
+                    <p> In JavaScript, `var`, `let`, and `const` are used to declare variables, but they differ in terms
+                        of
+                        their scope and behavior. Scope refers to where a variable is accessible and can be used within
+                        the
+                        code.</p>
+
+                    <h4 class="text-lg font-semibold mt-5 mb-3">"var" Scope:</h4>
+                    <ol>
+                        <li class="mb-1">The scope of a var variable is functional scope.</li>
+                        <li class="mb-1">It can be updated and re-declared into the scope.</li>
+                        <li class="mb-1">It can be declared without initialization.</li>
+                        <li class="mb-1">It can be accessed without initialization as its default value is “undefined”.
+                        </li>
+                        <li class="mb-1">hoisting done, with initializing as 'default' value
+                        </li>
+                    </ol>
+                    <h4 class="text-lg font-semibold mt-5 mb-3">"let" Scope:</h4>
+                    <ol>
+                        <li class="mb-1">The scope of a let variable is block scope.</li>
+                        <li class="mb-1">It can be updated but cannot be re-declared into the scope.</li>
+                        <li class="mb-1">It can be declared without initialization. </li>
+                        <li class="mb-1">It cannot be accessed without initialization otherwise it will give
+                            'referenceError'.
+                        </li>
+                        <li class="mb-1">Hoisting is done, but not initialized. this is the reason for the error when we
+                            access the let variable before declaration/initialization
+                        </li>
+                    </ol>
+                    <h4 class="text-lg font-semibold mt-5 mb-3">"const" Scope:</h4>
+                    <ol>
+                        <li class="mb-1">The scope of a const variable is block scope.
+                        </li>
+                        <li class="mb-1">It cannot be updated or re-declared into the scope.
+                        </li>
+                        <li class="mb-1">It cannot be declared without initialization.
+                        </li>
+                        <li class="mb-1">It cannot be accessed without initialization, as it cannot be declared without
+                            initialization.
+                        </li>
+                        <li class="mb-1">Hoisting is done, but not initialized. this is the reason for the error when we
+                            access the const variable before declaration/initialization
+
+                        </li>
+                    </ol>
+
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                    Undefined vs Null
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        Undefined means the variable has been declared, but its value has not been assigned. Null means
+                        an empty value or a blank value. The typeof() operator returns undefined for an undefined
+                        variable. The typeof() operator returns the type as an object for a variable whose value is
+                        assigned as null.
+                    </p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                    What do you mean by REST API?
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        What is a REST API? An API, or application programming interface, is a set of rules that define
+                        how applications or devices can connect to and communicate with each other. A REST API is an API
+                        that conforms to the design principles of the REST, or representational state transfer
+                        architectural style.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

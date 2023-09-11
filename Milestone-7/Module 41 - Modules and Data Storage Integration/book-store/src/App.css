@@ -1,0 +1,57 @@
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+.books-container {
+	padding: 20px 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.book {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 15px 10px;
+	border: 1px solid #ababab;
+	box-shadow: 0 10px 15px #ababab;
+	text-align: center;
+}
+
+.book:hover {
+	box-shadow: 0 15px 25px #959595;
+}
+
+.book h2 {
+	margin-bottom: 20px;
+	line-height: 1;
+}
+.book h2 span {
+	font-size: 16px;
+	font-weight: 500;
+	color: #959595;
+}
+
+.book img {
+	display: block;
+	margin: 0 auto;
+}
+
+.book button {
+	padding: 8px 8px;
+	background-color: cadetblue;
+	border: none;
+	margin-top: 15px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+}
+.book button:hover {
+	box-shadow: 0 2px 5px #ababab;
+}

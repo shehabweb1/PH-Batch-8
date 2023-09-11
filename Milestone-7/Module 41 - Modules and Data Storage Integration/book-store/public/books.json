@@ -1,0 +1,723 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 686,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "AxOvjwEACAAJ",
+      "etag": "t9wV5VeG6KU",
+      "selfLink": "https://content-books.googleapis.com/books/v1/volumes/AxOvjwEACAAJ",
+      "volumeInfo": {
+        "title": "What Love Is",
+        "subtitle": "And What It Could Be",
+        "authors": [
+          "Carrie Jenkins"
+        ],
+        "publisher": "Basic Books",
+        "publishedDate": "2017-01-24",
+        "description": "A rising star in philosophy examines the cultural, social, and scientific interpretations of love to answer one of our most enduring questions What is love? Aside from being the title of many a popular love song, this is one of life's perennial questions. In What Love Is, philosopher Carrie Jenkins offers a bold new theory on the nature of romantic love that reconciles its humanistic and scientific components. Love can be a social construct (the idea of a perfect fairy tale romance) and a physical manifestation (those anxiety- inducing heart palpitations); we must recognize its complexities and decide for ourselves how to love. Motivated by her own polyamorous relationships, she examines the ways in which our parameters of love have recently changed-to be more accepting of homosexual, interracial, and non-monogamous relationships-and how they will continue to evolve in the future. Full of anecdotal, cultural, and scientific reflections on love, What Love Is is essential reading for anyone seeking to understand what it means to say \"I love you.\" Whether young or old, gay or straight, male or female, polyamorous or monogamous, this book will help each of us decide for ourselves how we choose to love.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0465098851"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780465098859"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Philosophy"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=AxOvjwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=AxOvjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=AxOvjwEACAAJ&dq=love&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=AxOvjwEACAAJ&dq=love&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/What_Love_Is.html?hl=&id=AxOvjwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "BD",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BD",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=AxOvjwEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&quot; Whether young or old, gay or straight, male or female, polyamorous or monogamous, this book will help each of us decide for ourselves how we choose to love."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Kok2mAEACAAJ",
+      "etag": "4ldg+HFTtEs",
+      "selfLink": "https://content-books.googleapis.com/books/v1/volumes/Kok2mAEACAAJ",
+      "volumeInfo": {
+        "title": "Love Vouchers",
+        "authors": [
+          "Summersdale"
+        ],
+        "publisher": "Summersdale",
+        "publishedDate": "2014-01-06",
+        "description": "Pamper someone you love with this sweet book of vouchers containing romantic gestures, from breakfast in bed to a dreamy weekend away - it's the gift that keeps on giving!",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1849534950"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781849534956"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 64,
+        "printType": "BOOK",
+        "categories": [
+          "Humor"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Kok2mAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Kok2mAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Kok2mAEACAAJ&dq=love&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=Kok2mAEACAAJ&dq=love&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Love_Vouchers.html?hl=&id=Kok2mAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "BD",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BD",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Kok2mAEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Features vouchers containing romantic gestures, from breakfast in bed to a dreamy weekend away."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "i_MQmwEACAAJ",
+      "etag": "dLtfyE6pa8U",
+      "selfLink": "https://content-books.googleapis.com/books/v1/volumes/i_MQmwEACAAJ",
+      "volumeInfo": {
+        "title": "Money, a Love Story",
+        "subtitle": "Untangle Your Financial Woes and Create the Life You Really Want",
+        "authors": [
+          "Kate Northrup"
+        ],
+        "publishedDate": "2013-09-10",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1781800685"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781781800683"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 272,
+        "printType": "BOOK",
+        "categories": [
+          "Finance, Personal"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=i_MQmwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=i_MQmwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=i_MQmwEACAAJ&dq=love&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=i_MQmwEACAAJ&dq=love&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Money_a_Love_Story.html?hl=&id=i_MQmwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "BD",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BD",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=i_MQmwEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Using client stories and her own saga of moving from heavy debt to complete financial freedom by the age of 28, Kate Northrup acts as a guide in your quest for personal financial freedom through love."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Hhd2EAAAQBAJ",
+      "etag": "GfhtfHU2z34",
+      "selfLink": "https://content-books.googleapis.com/books/v1/volumes/Hhd2EAAAQBAJ",
+      "volumeInfo": {
+        "title": "Unwritten Love",
+        "authors": [
+          "Bikram Dutta",
+          "P S GAYEN"
+        ],
+        "publisher": "Notion Press",
+        "publishedDate": "2022-02-03",
+        "description": "সমুদ্রসম বাংলা কবিতা ভান্ডার পরিপূর্ণ হয়েছে যুগ যুগ ধরে ক্রমাগত বিভিন্ন কবির আগমনে l লেখনীর বিভিন্ন ধারা প্রতিফলিত হয়েছে তাদের কবিতায় l বিমূর্ত কখনো বা মূর্ত চিত্রপট তুলে ধরেছেন তাদের কবিতার মাধ্যমে, তাদের কাব্যগ্রন্থে l কে ছোট আর কেইবা বড়ো তা বিচার করার দায়িত্ব পাঠক বন্ধুদের ,তবে আমি একটা কথাই বলবো সৃষ্টির কোনো বিকল্প হয়না ,আনন্দরস ও বাস্তবতা উপলব্ধি করানোই স্রষ্টাদের উদ্দেশ্য l কবি বিক্রম দত্ত বর্তমান যুগের এক পরিচিত কবি ,যার বিভিন্ন কবিতা বাচিক শিল্পীরা কন্ঠে ধারণ করে চলেছে তার লেখনীর শুরু থেকে আজ পর্যন্ত,তার কবিতা মানব মনে স্থান করে নিয়েছে l পূর্বের দুটো কাব্যগ্রন্থ “এক পৃথিবী ভালোবাসা” ও “হোক প্রতিবাদ” কাব্যগ্রন্থের মাধ্যমে l এটি তার তৃতীয় প্রকাশিত কাব্যগ্রন্থ l আমরা পূর্বেও দেখেছি তার কবিতায় প্রতিফলিত হয়েছে সাধারণ মানুষের কথা ,ভালোবাসা ,উত্থান পতন ও জীবন যন্ত্রণার ছবি .. কবিরূপে বিক্রম দত্ত কতটা স্বার্থক তা বিচার করবে আগামী ,তবে পাঠক বন্ধুদের যদি হৃদয় ছুঁতে পারে এই কাব্যগ্রন্থটি সেটাই হবে তার শ্রেষ্ঠ পুরস্কার...",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9798885914208"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 83,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "maturityRating": "MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Hhd2EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Hhd2EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "bn",
+        "previewLink": "http://books.google.com/books?id=Hhd2EAAAQBAJ&pg=PT1&dq=love&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=Hhd2EAAAQBAJ&dq=love&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Unwritten_Love.html?hl=&id=Hhd2EAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BD",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BD",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Hhd2EAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "সেই ভালােবাসা আমি \u003cb\u003eলাভ\u003c/b\u003e করেছি পাঠক , শ্রোতা ও বাচিক বন্ধুদের কাছ থেকে । এই ভালােবাসা আমাকে করেছে আরাে সমৃদ্ধ ভাবনার জগৎকে করেছে আরও বিস্তৃত , তাই একের পর এক কবিতা সৃষ্টি করতে পেরেছি পাঠকবন্ধুদের&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "21b6DwAAQBAJ",
+      "etag": "8Wr4MhlCBSo",
+      "selfLink": "https://content-books.googleapis.com/books/v1/volumes/21b6DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Who Says I Love You?",
+        "subtitle": "Baby's First \"I Love You\" Book",
+        "authors": [
+          "Highlights"
+        ],
+        "publisher": "Highlights Press",
+        "publishedDate": "2018-11-13",
+        "description": "Say \"I love you!\" to this rhyming board book that features photographs of adorable babies and animals plus a shiny Mylar mirror. Every sturdy page in this board book engages children. With simple, repetitive phrases to say aloud, the book encourages vocabulary development. The Mylar mirror at the very end adds extra play value. A perfect gift for a baby shower or for a new little one!",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781684371563"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1684371562"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 15,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=21b6DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=21b6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=21b6DwAAQBAJ&printsec=frontcover&dq=love&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=21b6DwAAQBAJ&dq=love&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Who_Says_I_Love_You.html?hl=&id=21b6DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BD",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BD",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Who_Says_I_Love_You-sample-pdf.acsm?id=21b6DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=21b6DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Say &quot;I love you!&quot; to this rhyming board book that features photographs of adorable babies and animals plus a shiny Mylar mirror. Every sturdy page in this board book engages children."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "4SN8vgAACAAJ",
+      "etag": "IIXSRw6c7p8",
+      "selfLink": "https://content-books.googleapis.com/books/v1/volumes/4SN8vgAACAAJ",
+      "volumeInfo": {
+        "title": "Love What Matters",
+        "subtitle": "Real People. Real Stories. Real Heart.",
+        "authors": [
+          "LoveWhatMatters"
+        ],
+        "publisher": "Red Seat Ventures",
+        "publishedDate": "2017-05-02",
+        "description": "In the bestselling tradition of The Five People You Meet in Heaven and Humans of New York comes a collection of authentic, emotional, and inspiring stories about life’s most important moments, as curated by the editors at Love What Matters. “90% of the reads bring me to tears. I just can't believe the love this world truly has when all we see is hate. This is so uplifting.” —Shelsea Where do you go when you want to feel inspired? When you want to forget about the divisiveness and the anger? For over five million people, that place is Love What Matters, a digital platform dedicated to finding and sharing the daily moments of kindness, compassion, and love that so often go overlooked. This curated collection of powerful stories features first person accounts and photographs that perfectly capture each moment: A husband learning he’s about to be a dad. A new mom embracing her body. A cashier inadvertently teaching a young girl a lesson about patience. A bagel from a stranger that saved a homeless man’s life. From long overdue adoptions to military heroes returning home; from a fireman’s touching 9/11 tribute to what an old dinner plate found at a bake sale can teach us all about life—these are the moments that matter. They are genuine. Authentic. Raw. And they are perfect in their imperfection—just like all of us. You will no doubt experience goosebumps and tears, but this mosaic of life’s moments will leave you with something even more profound: a reminder that, in the end, love always wins. “This really is the best page on Facebook. It renews your love of humanity. There are still good people. We need more reports of acts of kindness.” —Johnny",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1501169130"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781501169137"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Self-Help"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4SN8vgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4SN8vgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=4SN8vgAACAAJ&dq=love&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=4SN8vgAACAAJ&dq=love&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Love_What_Matters.html?hl=&id=4SN8vgAACAAJ"
+      },
+      "saleInfo": {
+        "country": "BD",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BD",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4SN8vgAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "I just can&#39;t believe the love this world truly has when all we see is hate. This is so uplifting.” —Shelsea Where do you go when you want to feel inspired? When you want to forget about the divisiveness and the anger?"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "83b3DwAAQBAJ",
+      "etag": "RAsdbegIkLg",
+      "selfLink": "https://content-books.googleapis.com/books/v1/volumes/83b3DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Evelina The Omega",
+        "authors": [
+          "David Gomadza"
+        ],
+        "publisher": "David Gomadza",
+        "description": "This is book 2 of the Evelina series. Things get even hot. Raised stakes and a matter of life or death. Mankind’s existence rest on the shoulders of one woman. The Omega. The first woman has become the last woman. The only true seal. What if it was all planned before this world was created? To save all humanity, mankind must find the only true key; the Omega. On the other hand, to restore the lost kingdom of darkness, the devil must find the most wanted catalyst; The Omega. When everyone’s fate is in your hands what are the risks to yourself? It is a dash against time as total obliteration of the losing team is imminent and inevitable. It is a story of courage, steadfast and honor in the face of death. When loyalty is tested to breaking points. When the person you are to protect is the same person you must kill to save humanity from extinction? Some choices are meant for gods as humans are too weak and unequipped to handle such traumatic experiences. One man’s quest to solve God’s Dilemma, but at what cost? One lady’s quest to clear her name and enjoy life like every woman out there, but with what is at stake will the evil regime turn a blind eye?And at what expense?On the edge of the seat from the word go. A MUST READ.",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 428,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.4.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=83b3DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=83b3DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=83b3DwAAQBAJ&pg=PT675&dq=love&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=83b3DwAAQBAJ&dq=love&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Evelina_The_Omega.html?hl=&id=83b3DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BD",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BD",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=83b3DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003elove\u003c/b\u003e her forever for my \u003cb\u003elove\u003c/b\u003e is forever. I promise to \u003cb\u003elove\u003c/b\u003e her unconditionally and I pledge to \u003cb\u003elove\u003c/b\u003e no other than just her. I will never leave her for my \u003cb\u003elove\u003c/b\u003e for her will never die.” The people applauded. “Who is he?” roared David&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nfSHfoTn8bkC",
+      "etag": "c3yLYfl6EIw",
+      "selfLink": "https://content-books.googleapis.com/books/v1/volumes/nfSHfoTn8bkC",
+      "volumeInfo": {
+        "title": "Love",
+        "authors": [
+          "Leo F. Buscaglia"
+        ],
+        "publisher": "Fawcett",
+        "publishedDate": "1985",
+        "description": "This book is about love. What it is and what it isn't. It is about you--and about everybody who has ever reached out to touch the heart of another. Among many other lessons of the heart, Leo Buscaglia reminds us: Love is open arms. If you close your arms about love you will find that you are left holding only yourself.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "044920846X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780449208465"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 222,
+        "printType": "BOOK",
+        "categories": [
+          "Love"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.5.4.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nfSHfoTn8bkC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nfSHfoTn8bkC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=nfSHfoTn8bkC&q=love&dq=love&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=nfSHfoTn8bkC&dq=love&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Love.html?hl=&id=nfSHfoTn8bkC"
+      },
+      "saleInfo": {
+        "country": "BD",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BD",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nfSHfoTn8bkC&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003elove\u003c/b\u003e. Yet, if he expresses his trust and belief, society doesn&#39;t hesitate to abuse him and take him for a fool. If he has hope in \u003cb\u003elove\u003c/b\u003e and knows that it&#39;s only with this hope that he can make the dream of an all-\u003cb\u003eloving\u003c/b\u003e humanity a&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2nSRAQAACAAJ",
+      "etag": "MuNhsFPEOeI",
+      "selfLink": "https://content-books.googleapis.com/books/v1/volumes/2nSRAQAACAAJ",
+      "volumeInfo": {
+        "title": "Philosophy of Love, Sex, and Marriage",
+        "subtitle": "An Introduction",
+        "authors": [
+          "Raja Halwani"
+        ],
+        "publishedDate": "2018",
+        "description": "How is love different from lust or infatuation? Do love and marriage really go together \"like a horse and carriage\"? Does sex have any necessary connection to either? And how important are love, sex, and marriage to a well-lived life? In the Second Edition of this lively, lucid, and comprehensive book, Raja Halwani explores and elucidates the nature, uses, and ethics of romantic love, sexuality, and marriage. It is structured in three parts: Love examines the nature of romantic love and how it differs from other types of love, such as friendship and parental love. It also investigates the relationship of love to morality and asks what limits morality puts on romantic love and even whether romantic love is inherently moral. Sex demonstrates the difficulty in defining sex and the sexual, and examines what constitutes good and bad sex in terms of pleasure, \"naturalness,\" and moral permissibility. It discusses the nature of sexual desire and its connection to objectification and virtue, all the while looking at specific sexual engagements such as pornography, BDSM, and raced desires. Marriage traces the history of the institution and describes the various forms in which marriage exists and the reasons why people marry. It also investigates the necessity of marriage and ways in which it requires reform. Updates and Revisions in the Second Edition Expands the coverage of love and morality from one to two chapters, incorporating much of the recent literature on love as a moral emotion. Includes a new chapter on sex and virtue ethics. Ends each of the chapters on sex with an \"applied\" topic, such as pornography, BDSM, prostitution, racial sexual desires, and adultery. Increases coverage of the nature and purpose of marriage, including debates surrounding same-sex marriage, but also moving beyond these debates to include issues on minimal marriage, temporary marriage, polygamy, and other forms of marriage. Updates the Further Reading and Study Questions sections at the end of each chapter and provides an up-to-date comprehensive bibliography at the back of the book. Includes new discussions of topics on the nature of love; love and reasons; distinctions between two types of romantic love; love and its connections to moral theories; definitions of crucial sexual concepts; objectification; virtue and sex; racial sexual desires; and the definition of marriage and whether it is important as an institution.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1138280208"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781138280205"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 423,
+        "printType": "BOOK",
+        "categories": [
+          "Love"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2nSRAQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2nSRAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=2nSRAQAACAAJ&dq=love&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=2nSRAQAACAAJ&dq=love&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Philosophy_of_Love_Sex_and_Marriage.html?hl=&id=2nSRAQAACAAJ"
+      },
+      "saleInfo": {
+        "country": "BD",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BD",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2nSRAQAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "An introduction to the important topics and latest debates in the philosophy of sex, love, and marriage, with additional questions at the end of each chapter to stimulate further thinking about the relevant topics."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "AbnqKgAACAAJ",
+      "etag": "ZAdwJaGMn0g",
+      "selfLink": "https://content-books.googleapis.com/books/v1/volumes/AbnqKgAACAAJ",
+      "volumeInfo": {
+        "title": "How to Love and Be Loved",
+        "authors": [
+          "Paul Hauck"
+        ],
+        "publisher": "Sheldon Press",
+        "publishedDate": "1983-01-01",
+        "description": "Most of us want to love someone and be loved in return. So why do our relationships go wrong? Paul Hauck argues that our romantic ideas about love are often misleading. Relationships work better when both partners can 'give and take'. He explains how frustrations can be overcome, how you can avoid irrational and destructive thoughts, and be describes the best way to approach and maintain a successful marriage. Practical, readable and entertaining, this book will enable everyone to improve their emotional relationships.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0859693945"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780859693943"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 102,
+        "printType": "BOOK",
+        "categories": [
+          "Love"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=AbnqKgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=AbnqKgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=AbnqKgAACAAJ&dq=love&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=AbnqKgAACAAJ&dq=love&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/How_to_Love_and_Be_Loved.html?hl=&id=AbnqKgAACAAJ"
+      },
+      "saleInfo": {
+        "country": "BD",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BD",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=AbnqKgAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Practical, readable and entertaining, this book will enable everyone to improve their emotional relationships."
+      }
+    }
+  ]
+}

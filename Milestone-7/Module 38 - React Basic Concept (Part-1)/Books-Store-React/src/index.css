@@ -1,0 +1,136 @@
+:root {
+	color-scheme: light dark;
+	color: #fff;
+	background-color: #242424;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	text-align: center;
+	font-size: 42px;
+	padding: 20px 0;
+}
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.see-more {
+	display: block;
+	margin: 0 auto;
+	padding: 8px 15px;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	background-color:purple;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
+		0 6px 20px 0 rgba(255, 255, 255, 0.19);
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	background-color: #242424;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.3);
+}
+.card-img {
+	margin: 20px 0 10px 0;
+}
+.card-img img {
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #d2d2d2;
+}
+
+.card-body {
+	text-align: center;
+	color: white;
+	margin: 0 5px;
+}
+.card-body h3 {
+	font-size: 22px;
+	padding: 5px 0;
+	font-weight: 600;
+}
+.card-body h4 {
+	font-size: 18px;
+	padding: 5px 0;
+	font-weight: 500;
+}
+.card-body p {
+	font-size: 14px;
+	padding: 5px 0;
+	font-weight: 400;
+	color: #d2d2d2;
+}
+.card-body button {
+	font-size: 18px;
+	font-weight: 500;
+	margin: 10px 0;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.card-body button:hover {
+	/* transform: calc(1.1); */
+	transform: scale(1.07);
+}
+
+@media (max-width: 1200px) {
+	.container {
+		max-width: 992px;
+	}
+	.cards {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 10px;
+	}
+}
+@media (max-width: 992px) {
+	.container {
+		max-width: 768px;
+	}
+	.cards {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 10px;
+	}
+}
+@media (max-width: 768px) {
+	.container {
+		max-width: 576px;
+	}
+	.cards {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		max-width: 425px;
+	}
+	.cards {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 0;
+		margin: 20px;
+	}
+}

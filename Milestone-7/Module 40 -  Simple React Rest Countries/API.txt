@@ -1,0 +1,16 @@
+https://restcountries.com/#endpoints-all
+
+ALL
+https://restcountries.com/v3.1/all
+
+I want to make a world and all county info website using this api,
+
+1. Home page> World every total info, Total Population, ALL Data, Have Top 10 population and Area Country list 
+2. Countries> Search Option, Sort A-Z Country, Have Cards Country name and flag with a view details button.
+	2.1(Details). Country Name, Flag and Map, All Info Added
+3. Population> Sort Big to small population Country list and show population Amount.
+4. Areas> Sort Big to small Areas Country list and show Area Amount.
+5. Region> Devied Region by Country (MohaDesh)
+
+
+CSS>>> Bootstrap use korbo

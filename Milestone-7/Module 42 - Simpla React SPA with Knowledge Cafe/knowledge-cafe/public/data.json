@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "title": "Understanding JavaScript Promises: A Comprehensive Guide",
+        "blogImg": "./images/2.png",
+        "author": "John Doe",
+        "authorImg": "./images/boy1.png",
+        "postdate": "2023-09-15",
+        "readTime": 10,
+        "tags": [
+            "javascript",
+            "beginners"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Mastering ES6: A Guide to Modern JavaScript",
+        "blogImg": "./images/1.jpg",
+        "author": "Jane Smith",
+        "authorImg": "./images/girl1.jpg",
+        "postdate": "2023-09-20",
+        "readTime": 8,
+        "tags": [
+            "javascript",
+            "es6"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Building Interactive Web Applications with React and JavaScript",
+        "blogImg": "./images/3.png",
+        "author": "David Wilson",
+        "authorImg": "./images/boy2.png",
+        "postdate": "2023-09-25",
+        "readTime": 12,
+        "tags": [
+            "javascript",
+            "react"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Optimizing JavaScript Performance: Tips and Best Practices",
+        "blogImg": "./images/4.jpg",
+        "author": "Sarah Brown",
+        "authorImg": "./images/girl2.jpg",
+        "postdate": "2023-09-30",
+        "readTime": 15,
+        "tags": [
+            "javascript",
+            "tips"
+        ]
+    }
+]

@@ -1,0 +1,244 @@
+/* Common CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+}
+
+section,
+footer {
+	padding: 80px 150px;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn-primary {
+	padding: 15px 30px;
+	background-color: #e55473;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.title-primary {
+	font-size: 2.2rem;
+	font-weight: 900;
+	color: #272727;
+	text-align: center;
+}
+.text-primary {
+	font-size: 1rem;
+	font-weight: 300;
+	color: #7c7778;
+	line-height: 1.8;
+	margin: 24px 0;
+	text-align: center;
+}
+
+/* Header */
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #272727;
+	padding: 15px 0;
+}
+.logo {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 900;
+}
+
+.navbar ul {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.navbar ul li a {
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+}
+.navbar ul li a:hover,
+.navbar ul li a.active {
+	color: #e55473;
+}
+
+/* Banner Section */
+.banner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.banner-content {
+	max-width: 50%;
+}
+
+.banner-title {
+	font-size: 3.5rem;
+	font-weight: 900;
+	line-height: 1.2;
+	color: #272727;
+}
+
+.banner-text {
+	font-size: 1rem;
+	font-weight: 300;
+	color: #7c7778;
+	line-height: 1.8;
+	margin: 30px 0;
+}
+.banner-img {
+	height: 700px;
+	width: auto;
+	max-width: 50%;
+}
+
+/* Feature Section */
+.feature {
+	width: 100%;
+}
+
+.feature-content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.feature-bg {
+	padding: 60px 20px 0 20px;
+	width: 380px;
+	border-radius: 50% 50% 0 0;
+}
+.bg-pink {
+	background-color: #f2dee7;
+}
+.bg-blue {
+	background-color: #d9eff1;
+}
+.bg-green {
+	background-color: #e3ebdb;
+}
+.feature-img {
+	display: block;
+	margin: 0 auto;
+	height: 350px;
+	width: auto;
+	object-fit: fill;
+}
+
+.feature-item-text {
+	margin-top: 20px;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	color: #272727;
+}
+
+/* Service */
+
+.service-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 100px;
+}
+
+.service-img {
+	display: block;
+	margin: 0 auto;
+}
+
+.service-text {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+/* Deals */
+.deals {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.text-red {
+	color: #e55473;
+}
+
+.deal-content button {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Instagram */
+
+.instagram-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 25px;
+	margin-top: 40px;
+}
+
+.instagram-img {
+	width: 300px;
+	height: auto;
+}
+
+/* Subscribe */
+.subscribe {
+	background-image: url("../images/subscribe.png");
+	background-position: center;
+	background-size: cover;
+	margin: 100px 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* max-width: 1024px; */
+}
+
+.subscribe-form input[type="email"] {
+	padding: 20px 30px;
+	outline: none;
+	border: none;
+	width: 500px;
+}
+
+/* Footer */
+
+.footer {
+	background-color: #111010;
+    width: 100%;
+}
+
+.footer-title {
+	font-size: 3rem;
+	font-weight: 900;
+	color: #fff;
+	text-align: center;
+}
+
+.footer-text {
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+}
